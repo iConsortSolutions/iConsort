@@ -160,7 +160,7 @@ contract ERC20Token is StandardToken, Ownable {
         totalCoin       = 20000000000;                       // Total Supply of Coin
         totalSupply     = totalCoin * 10**uint(decimals); // Total Supply of Coin
         balances[owner] = totalSupply;                    // Total Supply sent to Owner's Address
-        exchangeRate    = 12500000;                            // 100 Coins per ETH   (changable)
+        exchangeRate    = 12500000;                            // 12.5M Coins per ETH   (changable)
         min        = 10000000000000000;
         symbol          = "ICS";                       // Your Ticker Symbol  (changable)
         name            = "iConsort Token";             // Your Coin Name      (changable)
